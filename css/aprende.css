@@ -1,0 +1,183 @@
+body {
+  background-color: #1e1e2e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #6a0dad;
+  padding: 10px 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+section {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #6a0dad;
+  border-radius: 10px;
+  background-color: #00000096;
+}
+h2 {
+  color: #e0e0ff;
+  text-align: center;
+}
+.activities-grid, .resources-grid, .stories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.activity-card, .resource-card, .story-card {
+  background-color: #3e3e5e;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.activity-card img, .resource-card img, .story-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+button {
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+button:hover {
+  background-color: #8a2be2;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #6a0dad;
+}
+.space-background {
+  background: url('space-bg.jpg') no-repeat center center/cover;
+}
+.planet {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url('planet.png') no-repeat center center/cover;
+  margin: 10px;
+}
+
+.bg-white {
+    background-size: cover;
+    background-image: url(..//img/aprende\ fondo.png)
+ 
+}
+.game-box {
+    background-color: #6c14b360;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .game-box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .game-box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .game-box p {
+    font-size: 16px;
+    color: #666;
+  }
+  .games-section {
+    background-image: url(..//img/aprende\ fondo.png);
+    background-size: cover; 
+    background-position: center; 
+}
+.centroo {
+position: relative;
+left: 10rem;
+}
+.pdf-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pdf-box img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .pdf-box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .pdf-box a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .pdf-box a:hover {
+    color: #23527c;
+  }
+  .pdf-section{
+    background-image: url(..//img/fondop.png)
+
+    background-position: center; 
+  }
+  .play-button {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto 0 auto;
+    background-color: #ff00ff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: fit-content; 
+}
+
+.play-button:hover {
+    background-color: #8000ff;
+}
+
+.game-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game-box h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #fff;
+}
